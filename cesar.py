@@ -10,10 +10,10 @@ def cesar(msg: str, turns: int, encode: bool) -> str:
         for letter in word:
             if encode:
                 new_index = alphabet.find(letter) + turns
-                new_letter = alphabet[new_index if new_index <= 25 else new_index - 26]
+                new_letter = alphabet[new_index if new_index <= 26 else new_index - 26]
             else:
                 new_index = alphabet.find(letter) - turns
-                new_letter = alphabet[new_index if new_index <= 25 else new_index + 26]
+                new_letter = alphabet[new_index if new_index <= 26 else new_index + 26]
 
             encrypted_word += new_letter
 
