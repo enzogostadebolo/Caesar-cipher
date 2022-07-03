@@ -4,7 +4,7 @@ Encode and decode Caesar cipher.
 //
 To encode -> encode=True
 
-To decode -> decode=False
+To decode -> encode=False
 //
 
 What's Caesar cipher?
